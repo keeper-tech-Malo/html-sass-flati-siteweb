@@ -6140,17 +6140,21 @@ header nav {
   justify-content: center;
 }
 
-header nav h1 {
+header nav .flati {
   color: white;
   align-items: center;
   flex: 1;
 }
 
+header nav .Box-liste {
+  align-content: center;
+}
+
 header nav ul {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   list-style: none;
+  flex: 2;
 }
 
 header nav ul li {
@@ -6162,6 +6166,7 @@ header nav ul li {
 header nav ul li a {
   color: black;
   text-decoration: none;
+  align-items: center;
 }
 
 header .image-header {
