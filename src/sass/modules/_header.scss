@@ -2,8 +2,61 @@ header{
     display: flex;
     align-items: center;
     width: 100%;
+    height: auto;
+    margin: 0 auto;
+    
     nav{
-        background-color: (29,29;63,0.808);
+        display: flex;
+        background-color: rgba(13, 13, 24, 0.89);
         width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        
+        .flati{
+            display: flex;
+            color:white;
+            // align-items: center;
+            flex:1;
+            margin-left: 40px;
+            padding: 40px;
+            text-transform: uppercase;
+        }
+        .box-liste{
+            display: flex;
+            margin-left: 100px;
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                list-style: none;
+                flex:2;
+                li{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin: 0 auto;
+                    :hover{
+                        background-color: blue;
+                        color: white;
+                    }
+                    a{
+                        display: flex;
+                        justify-content: space-between;
+                        color: grey;
+                        text-decoration: none;
+                        padding: 20px;
+                        text-transform: uppercase;
+                        span{
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .image-header{
+        background-image: url("../../../public/img/bg-header.png");
     }
 }
