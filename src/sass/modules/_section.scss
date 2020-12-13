@@ -1,10 +1,33 @@
 section{
-    margin: 50px 15%;
+    margin: 0;
+    
+    
     .slogan{
+
+        display: flex;
         justify-content: center;
         align-content: center;
+        background-color: rgb(226, 223, 223);
+        padding-bottom: 50px;
+        font-size: 15px;
+        margin-bottom: 0;
+        
+        
         p{
+            margin-top: 50px;
             text-align: center;
+            font-family: "ubuntu-malo";
+            color: grey;
+            .programmers{
+                background-color: rgb(0, 183, 255);
+                color: white;
+            }
+            .complexity{
+                color:rgb(0, 183, 255);
+            }
+
+            
+            
         }
         
     }

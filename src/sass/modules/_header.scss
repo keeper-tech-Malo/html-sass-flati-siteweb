@@ -1,9 +1,9 @@
 header{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
+    // display: flex;
+    // align-items: center;
+    // width: 100%;
+    // height: auto;
+    // margin: 0 auto;
     
     nav{
         display: flex;
@@ -21,6 +21,7 @@ header{
             margin-left: 40px;
             padding: 40px;
             text-transform: uppercase;
+            font-family: "ubuntu-malo";
         }
         .box-liste{
             display: flex;
@@ -47,9 +48,11 @@ header{
                         text-decoration: none;
                         padding: 20px;
                         text-transform: uppercase;
+                        font-family: "ubuntu-malo";
                         span{
                             display: flex;
                             justify-content: space-between;
+                            
                         }
                     }
                 }
@@ -57,6 +60,13 @@ header{
         }
     }
     .image-header{
-        background-image: url("../../../public/img/bg-header.png");
+        width: 100%;
+        img{
+            max-width: 100%;
+            // background: cover;
+           
+
+        }
+        
     }
 }
